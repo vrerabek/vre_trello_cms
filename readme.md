@@ -2,6 +2,7 @@
 
 VRE Trello CMS is extremely lightweight and simple PHP Library, which let's you fetch content for your website from your Trello Board.
 
+
 # Installation
 WIP 🔨
 - Install package by running ```composer install !!!TODO!!!```
@@ -59,7 +60,11 @@ If you change your root folder directory for ```.env``` (check Troubleshooting s
 **.env file directory**
 
 By default, VRE searches for .env file and stores cache in ```$_SERVER['DOCUMENT_ROOT']``` 
+
 If you want to store .env file in different folder or the default is not working, you can supply directory to ```VreClient``` constructor like this ```$vreClient = new \Vrerabek\VreClient(dirname(__FILE__ ) . '/src');```
 
 
+
+
+🕛 *I made this in one evening and it will deffinitely get better in the future :)* 🕛
 
