@@ -1,0 +1,4 @@
+.env
+content.json
+lastCache.json
+/vendor/

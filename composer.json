@@ -1,0 +1,21 @@
+{
+    "name": "vrerabek/vre_trello_cms",
+    "description": "Extremely simple php CMS using Trello cards as data source",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vojtech Rerabek",
+            "email": "vrerabek@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "Vrerabek\\":"src/"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.1",
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
