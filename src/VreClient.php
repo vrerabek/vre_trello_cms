@@ -8,7 +8,6 @@ use Exception;
  * Bread and butter of this library.
  *
  * Manages communication with trello API.
- * You preferably want to keep instance of this is some kind of DI.
  */
 class VreClient
 {
@@ -60,7 +59,6 @@ class VreClient
     {
         if ($this->devMode) {
             $this->cards = $this->trelloReader->getBoardContents();
-            $this->cacher->cacheContent($this->cards);
             return $this->cards;
         }
 
